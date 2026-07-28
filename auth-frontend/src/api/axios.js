@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://authsystem-yvpe.onrender.com",
+    baseURL: "https://authsystem-yvpe.onrender.com/api",
     withCredentials: true,
 });
 
